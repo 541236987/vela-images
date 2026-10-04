@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vela 模拟器 · 在线镜像下载</title>
+<style>
+  :root { --bg:#0f1115; --card:#171a21; --line:#262b36; --fg:#e8eaed; --dim:#9aa0aa; --acc:#4d8dff; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--bg); color:var(--fg); font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif; min-height:100vh; display:flex; align-items:center; justify-content:center; padding:24px; }
+  .wrap { max-width:720px; width:100%; }
+  h1 { font-size:24px; font-weight:650; margin-bottom:6px; }
+  .sub { color:var(--dim); font-size:14px; line-height:1.7; margin-bottom:22px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; overflow:hidden; }
+  .row { display:flex; align-items:center; gap:14px; padding:14px 18px; border-bottom:1px solid var(--line); }
+  .row:last-child { border-bottom:none; }
+  .name { flex:1; min-width:0; }
+  .name b { font-size:15px; display:block; }
+  .name span { font-size:12px; color:var(--dim); }
+  .size { color:var(--dim); font-size:12px; white-space:nowrap; }
+  a.btn { background:var(--acc); color:#fff; text-decoration:none; font-size:13px; padding:8px 16px; border-radius:8px; white-space:nowrap; }
+  a.btn:hover { filter:brightness(1.1); }
+  .note { margin-top:18px; font-size:12px; color:var(--dim); line-height:1.8; }
+  .note b { color:var(--fg); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Vela 快应用模拟器 · 在线镜像</h1>
+  <p class="sub">在线版 APK 首次启动模拟时会自动从下方链接下载对应系统镜像。已按机型自动匹配：手环/手表 5.0 镜像为主，另提供 4.0 预装镜像与手表 5.0 镜像。</p>
+  <div class="card">
+    <div class="row">
+      <div class="name"><b>vela-miwear-watch-5.0</b><span>手环/手表 5.0 · 小米手环9/10/Pro、Watch S4、Redmi Watch 等</span></div>
+      <div class="size">1.16 GB</div>
+      <a class="btn" href="https://github.com/541236987/vela-images/releases/download/v1.0-images/vela-miwear-watch-5.0.zip" download>下载</a>
+    </div>
+    <div class="row">
+      <div class="name"><b>vela-pre-4.0</b><span>Vela 4.0 预装镜像</span></div>
+      <div class="size">718 MB</div>
+      <a class="btn" href="https://github.com/541236987/vela-images/releases/download/v1.0-images/vela-pre-4.0.zip" download>下载</a>
+    </div>
+    <div class="row">
+      <div class="name"><b>vela-watch-5.0</b><span>手表 5.0 镜像</span></div>
+      <div class="size">654 MB</div>
+      <a class="btn" href="https://github.com/541236987/vela-images/releases/download/v1.0-images/vela-watch-5.0.zip" download>下载</a>
+    </div>
+  </div>
+  <div class="note">
+    <b>机型对照</b>：小米手环9 / 手环10 / 手环9 Pro / Xiaomi Watch S4 / S4 41mm / 小米手表 / Redmi Watch / 小米音箱（自定义分辨率亦可）<br>
+    <b>说明</b>：镜像由 GitHub Release 托管，本页由 Cloudflare Pages 部署。若下载缓慢可尝试使用代理工具。
+  </div>
+</div>
+</body>
+</html>
